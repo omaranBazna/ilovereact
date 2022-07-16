@@ -3,6 +3,9 @@ import './App.css';
 const message="cool cud"
 function App() {
   return (
+    <div>
+      {message}
+    </div>
     
   );
 }
