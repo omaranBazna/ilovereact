@@ -23,10 +23,11 @@ const messages = [
 ];
 const HeartList =()=>{
     return (
-        <div className="heart-container">
-              {messages.map((msg)=>{
-                <Heart msg={msg} />
-               
+        <div className="hearts-container">
+              {messages.map((message)=>{
+                return(
+                <Heart msg={message} />
+               )
               })}
         </div>
     )
