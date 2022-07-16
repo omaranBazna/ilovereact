@@ -13,6 +13,7 @@ const Heart=(props)=>{
 }
 function App() {
   return (
+    <Header />
     <Heart msg ={message} />
       
     
