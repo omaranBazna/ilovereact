@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import Heart from "./components/Heart"
 import HeartList from './components/HeartList'
-const message="cool cud"
+
 
 
 
