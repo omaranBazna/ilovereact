@@ -6,7 +6,7 @@ const message="cool cud"
 const Heart=(props)=>{
   return (
     <div>
-      {props.msg}
+      <img className="heart-img" src={logo.svg} alt="heart"></img>
     </div>
   )
 }
