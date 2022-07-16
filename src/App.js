@@ -6,7 +6,7 @@ const message="cool cud"
 const Heart=(props)=>{
   return (
     <div>
-      {msg.message}
+      {props.msg}
     </div>
   )
 }
