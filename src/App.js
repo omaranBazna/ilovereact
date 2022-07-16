@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import HeartLogo from './heart.svg';
 import './App.css';
 const message="cool cud"
 
