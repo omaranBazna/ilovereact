@@ -11,6 +11,13 @@ const Heart=(props)=>{
     </div>
   )
 }
+const Header=()=>{
+  return (
+    <div className="App-header">
+       I love React
+    </div>
+  )
+}
 function App() {
   return (
     <>
