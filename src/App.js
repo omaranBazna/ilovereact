@@ -3,9 +3,8 @@ import './App.css';
 const message="cool cud"
 function App() {
   return (
-    <Heart>
-      {message}
-    </Heart>
+    <Heart msg ={message} />
+      
     
   );
 }
