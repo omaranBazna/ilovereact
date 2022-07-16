@@ -1,4 +1,4 @@
-import HeartLogo from './heart.svg';
+import HeartLogo from './assests/heart.svg';
 import './App.css';
 const message="cool cud"
 
@@ -11,13 +11,7 @@ const Heart=(props)=>{
     </div>
   )
 }
-const Header=()=>{
-  return (
-    <div className="App-header">
-       I ❤️ React
-    </div>
-  )
-}
+
 function App() {
   return (
     <>
