@@ -7,3 +7,4 @@ const Heart=(props)=>{
       </div>
     )
   }
+  export default Heart;
