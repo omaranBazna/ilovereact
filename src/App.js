@@ -14,7 +14,7 @@ const Heart=(props)=>{
 const Header=()=>{
   return (
     <div className="App-header">
-       I love React
+       I ❤️ React
     </div>
   )
 }
