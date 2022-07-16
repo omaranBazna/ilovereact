@@ -34,7 +34,7 @@ const CandyCardHeart=(props)=>{
                 <HeartSvg color={random} />
             </div>
             <p className="heart-message">
-                  {props.message}
+                  {props.msg}
             </p>
            
 
