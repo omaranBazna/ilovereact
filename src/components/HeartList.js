@@ -21,3 +21,14 @@ const messages = [
     'oy',
     'in a fan'
 ];
+const HeartList =()=>{
+    return (
+        <div className="heart-container">
+              {messages.map((msg)=>{
+                <Heart msg={msg} />
+               
+              })}
+        </div>
+    )
+}
+export default HeartList;
